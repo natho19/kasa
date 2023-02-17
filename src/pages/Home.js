@@ -6,9 +6,8 @@ const Home = () => {
     return (
         <>
             <Header />
-            <h1>Page d'accueil</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod consequatur
+                Home lorem ipsum dolor sit amet consectetur adipisicing elit. Quod consequatur
                 accusantium quos ipsam reprehenderit quo molestiae repudiandae fugiat ipsum,
                 repellendus inventore quas necessitatibus voluptate harum blanditiis totam laborum
                 dolorum vitae veritatis quis. Dicta ex veritatis cumque aspernatur molestias aperiam

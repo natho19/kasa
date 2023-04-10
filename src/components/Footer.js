@@ -1,11 +1,13 @@
 import React from 'react';
-import logoWhite from '../assets/logo-white.svg';
+import footerLogo from '../assets/footer-logo.png';
 
 const Footer = () => {
     return (
         <footer className="footer">
-            <img src={logoWhite} alt="logo white" />
-            <p>&copy; {new Date().getFullYear()} Kasa. All rights reserved</p>
+            <img className="footer--logo" src={footerLogo} alt="Footer Logo" />
+            <small className="footer--copyright">
+                &copy; {new Date().getFullYear()} Kasa. All rights reserved
+            </small>
         </footer>
     );
 };

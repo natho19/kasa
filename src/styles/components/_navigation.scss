@@ -14,10 +14,10 @@
             font-size: 12px;
             font-weight: 500;
             text-transform: uppercase;
-            transition: font-weight ease-in-out 0.1s;
+            transition: color ease-in-out 0.15s;
 
             &:hover {
-                font-weight: 700;
+                color: $black-color;
             }
         }
 

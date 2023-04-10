@@ -5,7 +5,7 @@ import headerLogo from '../assets/header-logo.png';
 const Header = () => {
     return (
         <header className="header">
-            <img className="header--logo" src={headerLogo} alt="Header Logo" />
+            <img className="header__logo" src={headerLogo} alt="Header Logo" />
             <Navigation />
         </header>
     );

@@ -7,6 +7,7 @@ const Card = () => {
             <Link className="card__link">
                 <img className="card__image" src="./house.jpg" alt="house" />
                 <h2 className="card__title">Titre de la location</h2>
+                <div className="card__shadow"></div>
             </Link>
         </article>
     );

@@ -1,0 +1,27 @@
+.navigation {
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        li {
+            &:first-child {
+                margin-right: 15px;
+            }
+        }
+
+        a {
+            font-weight: 500;
+            text-transform: uppercase;
+            transition: font-weight ease-in-out 0.1s;
+
+            &:hover {
+                font-weight: 700;
+            }
+        }
+
+        a.active {
+            text-decoration: underline;
+        }
+    }
+}

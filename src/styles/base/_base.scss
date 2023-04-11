@@ -35,3 +35,17 @@ button {
 :focus {
     outline: none;
 }
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    flex-shrink: 0;
+}

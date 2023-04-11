@@ -12,7 +12,6 @@ const Home = () => {
                 <Banner />
                 <section className="cards">
                     <Card />
-                    <Card />
                 </section>
             </main>
             <Footer />

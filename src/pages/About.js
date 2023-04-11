@@ -6,7 +6,9 @@ const About = () => {
     return (
         <>
             <Header />
-            <main className="main"></main>
+            <main className="main">
+                <h1>A propos</h1>
+            </main>
             <Footer />
         </>
     );

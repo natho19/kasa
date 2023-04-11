@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Card = () => {
+const Card = props => {
     return (
         <article className="card">
-            <Link className="card__link">
-                <img className="card__image" src="./house.jpg" alt="house" />
-                <h2 className="card__title">Titre de la location</h2>
+            <Link className="card__link" to={`house/${props.data.id}`}>
+                <img className="card__image" src={props.data.cover} alt={props.data.title} />
+                <h2 className="card__title">{props.data.title}</h2>
                 <div className="card__shadow"></div>
             </Link>
         </article>

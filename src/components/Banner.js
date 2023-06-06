@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Banner = () => {
+const Banner = props => {
     return (
-        <section className="banner">
-            <h1 className="banner__title">Chez vous, partout et ailleurs</h1>
+        <section className={`banner ${props.className}`}>
+            {props.title && <h1 className="banner__title">{props.title}</h1>}
         </section>
     );
 };

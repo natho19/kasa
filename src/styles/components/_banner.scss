@@ -4,7 +4,10 @@
     height: 120px;
     width: 100%;
     border-radius: 10px;
-    background: url(../../assets/home-banner.png) center/190% no-repeat rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.3);
+
     background-blend-mode: darken;
     padding: 15px;
     margin-bottom: 22px;

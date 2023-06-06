@@ -6,7 +6,7 @@ import Banner from '../components/Banner';
 import datas from '../datas.json';
 
 const Home = () => {
-    const datasCard = datas.map(data => {
+    const cards = datas.map(data => {
         return <Card key={data.id} data={data} />;
     });
 
@@ -14,8 +14,8 @@ const Home = () => {
         <>
             <Header />
             <main className="main">
-                <Banner />
-                <section className="cards">{datasCard}</section>
+                <Banner className="home-banner" title="Chez vous, partout et ailleurs" />
+                <section className="cards">{cards}</section>
             </main>
             <Footer />
         </>
